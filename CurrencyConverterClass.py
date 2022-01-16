@@ -6,9 +6,6 @@ currency_list = ["AUD", "CAD", "CNH", "EUR", "IDR", "INR", "USD"]
 class CurrencyConvert:
     #Innitializing
     def __init__(self, tk):
-        myFrame = Frame(tk)
-        myFrame.pack()
-
         # Setting the Initial Currency Button
         self.variable1 = StringVar(tk, currency_list[0])
         self.variable2 = StringVar(tk, currency_list[1])
