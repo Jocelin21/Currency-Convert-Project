@@ -1,4 +1,5 @@
-from tkinter import *  # import everything from tkinter
-from CurrencyConverterClass import CurrencyConvert
+#Importing the module
+from CurrencyConverterClass import CurrencyConvert 
 
+#Run it
 CurrencyConvert()

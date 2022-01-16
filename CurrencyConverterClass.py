@@ -144,5 +144,5 @@ class CurrencyConvert:
         else:
             self.__result = self.__money_original
 
-        #Set the Result and formatting the commas
+        #Set the Result and formatting with comma
         self.total.set("{:,}".format(self.__result))
