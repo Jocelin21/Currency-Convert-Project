@@ -2,13 +2,17 @@
 from CurrencyConverterClass import CurrencyConvert 
 from tkinter import *
 
-# Make window
-tk = Tk()
-tk.title("Currency Converter")
-tk.geometry("400x250")
+def main():
+    # Make window
+    tk = Tk()
+    tk.title("Currency Converter")
+    tk.geometry("400x250")
 
-#Run the class
-CurrencyConvert(tk)
+    #Run the class
+    CurrencyConvert(tk)
+    
+    #Run the Program
+    tk.mainloop()
 
-#Run the Program
-tk.mainloop()
+if __name__ == "__main__":
+    main()
