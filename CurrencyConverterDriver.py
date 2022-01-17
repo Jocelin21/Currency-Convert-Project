@@ -6,6 +6,7 @@ def main():
     # Make window
     tk = Tk()
     tk.title("Currency Converter")
+    #Window size
     tk.geometry("400x250")
 
     #Run the class
